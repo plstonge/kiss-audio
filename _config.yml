@@ -3,7 +3,7 @@
 title: KISS Audio
 description: >-                   # Multiline description below
   Keep It Simple Stupid with the design of Audio components (KISS Audio)
-baseurl: ""                       # Subpath of the site
+baseurl: "/kiss-audio"            # Subpath of the site
 url: "https://plstonge.github.io" # Protocol and base hostname
 
 # Build settings
