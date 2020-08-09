@@ -12,9 +12,37 @@
     <title>{{ site.title }} - {{ page.title }}</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <img class="d-inline-block align-top" alt="Accueil" src="{{ site.baseurl }}/favicon.png" loading="lazy" height="32" width="32" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barreMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="barreMenu">
+          <ul class="navbar-nav">{% for itemN1 in site.data.navbar.menuN1 %}
+            {% if itemN1.url %}<li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}{{ itemN1.url }}">{{ itemN1.nom }}</a>
+            </li>{% elsif itemN1.menuN2 %}<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="menu{{ itemN1.nom }}" data-toggle="dropdown">{{ itemN1.nom }}</a>
+              <ul class="dropdown-menu">{% for itemN2 in itemN1.menuN2 %}
+                {% if itemN2.url %}<li class="dropdown-item">
+                  <a href="{{ site.baseurl }}{{ itemN1.dossier }}{{ itemN2.url }}">{{ itemN2.nom }}</a>
+                </li>{% elsif itemN2.menuN3 %}<h6 class="dropdown-header">{{ itemN2.nom }}</h6>{% for itemN3 in itemN2.menuN3 %}
+                <li class="dropdown-item"><a href="{{ site.baseurl }}{{ itemN2.dossier }}{{ itemN3.url }}">{{ itemN3.nom }}</a></li>{% endfor %}
+                <div class="dropdown-divider"></div>{% endif %}{% endfor %}
+              </ul>
+            </li>{% endif %}{% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </div>
+
     <h1 class="text-center">{{ site.title }} - {{ page.title }}</h1>
 
-    {{ content }}
+{{ content }}
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

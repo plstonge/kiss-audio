@@ -1,0 +1,39 @@
+menuN1:
+- nom: Accueil
+  url: /
+- nom: Appareils
+  menuN2:
+  - nom: Sources numériques
+    dossier: /numerique/
+    menuN3:
+    - nom: Convertisseur I²S
+      url: convertisseur_i2s.html
+    - nom: Lecteur réseau
+      url: lecteur_reseau.html
+    - nom: Transport à CD
+      url: transport_cd.html
+  - nom: Sources analogiques
+    dossier: /analogique/
+    menuN3:
+    - nom: Convertisseur NA (DAC)
+      url: convertisseur_na.html
+    - nom: Préamplificateur Phono
+      url: preamplificateur_phono.html
+    - nom: Radio (Tuner)
+      url: radio_tuner.html
+  - nom: Amplificateurs
+    dossier: /amplificateur/
+    menuN3:
+    - nom: Casque stéréo
+      url: casque_stereo.html
+    - nom: Système de préamplificateurs
+      url: systeme_preamp.html
+    - nom: Amplificateur mono
+      url: amplificateur_mono.html
+- nom: Pourquoi
+  dossier: /pourquoi/
+  menuN2:
+  - nom: ... I²S ou IIS ?
+    url: i2s_iis.html
+  - nom: ... XLR seulement ?
+    url: xlr_seulement.html
