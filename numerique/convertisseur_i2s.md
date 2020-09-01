@@ -4,8 +4,6 @@ layout: default
 title: Convertisseur numérique à I²S
 ---
 
-<div class="container">
-
 ## Le principe KISS (Keep it simple, stupid)
 
 * Modularité
@@ -36,5 +34,3 @@ boîtier et des modules de notre choix à ajouter dans le convertisseur.
 ## Design suggéré
 
 (À venir)
-
-</div>

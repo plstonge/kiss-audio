@@ -4,8 +4,6 @@ layout: default
 title: Pourquoi I²S ou IIS ?
 ---
 
-<div class="container">
-
 ## Le principe KISS (Keep it simple, stupid)
 
 * Simplicité
@@ -85,5 +83,3 @@ que ce soit de la forme HDMI ou RJ-45.
 * Pour les applications spéciales ou variées, un
   [convertisseur I²S]({{ site.baseurl }}/numerique/convertisseur_i2s.html)
   peut toujours être utilisé.
-
-</div>

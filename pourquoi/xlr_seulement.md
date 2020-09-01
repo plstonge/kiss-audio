@@ -4,8 +4,6 @@ layout: default
 title: Pourquoi des prises XLR seulement ?
 ---
 
-<div class="container">
-
 ## Le principe KISS (Keep it simple, stupid)
 
 * Simplicité
@@ -22,5 +20,3 @@ title: Pourquoi des prises XLR seulement ?
 * Pour éviter d'avoir les deux types de connecteurs sur un même appareil
 * Pour avoir des circuits électroniques plus simples
 * Pour réduire les coûts de conception, et ce, malgré une conception entièrement balancée
-
-</div>
