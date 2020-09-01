@@ -22,5 +22,8 @@ title: Amplificateur pour casque stéréo
 
 ## Design suggéré
 
-{% include img_design.html ind="1" alt="Deux entrées XLR" src="images/headphone_back.png" %}
-{% include img_design.html ind="2" alt="Une sortie XLR-4 au centre du bouton de volume" src="images/headphone_front.png" %}
+{% capture dev_null %}{% increment fig_index %}{% endcapture %}
+{% include img_design.html ind=fig_index alt="Deux entrées XLR" src="images/headphone_back.png" %}
+
+{% capture dev_null %}{% increment fig_index %}{% endcapture %}
+{% include img_design.html ind=fig_index alt="Une sortie XLR-4 au centre du bouton de volume" src="images/headphone_front.png" %}
