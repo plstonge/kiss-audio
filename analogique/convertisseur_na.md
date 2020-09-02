@@ -24,5 +24,4 @@ title: Convertisseur numérique-analogique (DAC)
 
 ## Design suggéré
 
-{% capture dev_null %}{% increment fig_index %}{% endcapture %}
-{% include img_design.html ind=fig_index alt="Trois entrées I²S et deux sorties XLR" src="images/dac_back.png" %}
+{% include img_design.html ind=1 alt="Trois entrées I²S et deux sorties XLR" src="images/dac_back.png" %}
