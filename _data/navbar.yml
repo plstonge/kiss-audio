@@ -24,7 +24,7 @@ menuN1:
   - nom: Amplificateurs
     dossier: /amplificateur/
     menuN3:
-    - nom: Casque stéréo
+    - nom: Pour casque stéréo
       url: casque_stereo.html
     - nom: Système de préamplificateurs
       url: systeme_preamp.html
