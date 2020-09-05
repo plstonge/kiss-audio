@@ -8,7 +8,7 @@ title: Amplificateur pour casque stéréo
 
 * Simplicité
 
-## Entrée
+## Entrées
 
 * 2 prises (gauche/droite) XLR balancées
 
@@ -18,7 +18,7 @@ title: Amplificateur pour casque stéréo
 
 ## Sortie
 
-* Prise XLR4 (4 broches)
+* Prise XLR-4 (4 broches)
 
 ## Design suggéré
 
