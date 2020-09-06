@@ -33,4 +33,4 @@ boîtier et des modules de notre choix à ajouter dans le convertisseur.
 
 ## Design suggéré
 
-(À venir)
+{% include img_design.html ind=1 alt="Différents modules en entrée et une sortie numérique I²S" src="images/i2s_converter_back.png" %}
