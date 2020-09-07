@@ -35,6 +35,7 @@ Voici plusieurs produits supportant la spécification PS Audio :
 * PS Audio
   [Stellar Strata](https://www.psaudio.com/products/stellar-strata/),
   [Stellar Gain Cell](https://www.psaudio.com/products/stellar-gain-cell/),
+  [PerfectWave SACD Transport](https://www.psaudio.com/products/perfectwave-sacd-transport/),
   [DirectStream DAC](https://www.psaudio.com/products/directstream-dac/)
 * Audio-gd
   [R-1](http://www.audio-gd.com/R2R/R1/R1EN.htm),
