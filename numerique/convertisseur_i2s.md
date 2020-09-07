@@ -16,11 +16,11 @@ boîtier et des modules de notre choix à ajouter dans le convertisseur.
 
 ## Entrées (au choix)
 
-* Module avec prise USB - possibilité d'y intégrer des fonctions de décodage ou de transcodage
+* Module avec prise AES/EBU balancée (XLR)
 * Module avec prise coaxiale
 * Module avec prise Toslink (optique)
-* Module avec prise AES/EBU balancée (XLR)
 * Module avec prise HDMI régulière - possibilité d'ajouter une sortie HDMI pour le signal vidéo
+* Module avec prise USB - possibilité d'y intégrer des fonctions de décodage ou de transcodage
 
 ## Fonctions
 
