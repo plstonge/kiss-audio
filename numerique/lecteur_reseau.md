@@ -13,9 +13,9 @@ Les différents modules sont remplaçables ou capable de se mettre à jour.
 
 ## Entrées
 
+* Module d'antenne Bluetooth
 * Module Ethernet
 * Module d'antennes Wi-Fi
-* Module d'antenne Bluetooth
 
 ## Fonctions
 
@@ -30,4 +30,4 @@ Les différents modules sont remplaçables ou capable de se mettre à jour.
 
 ## Design suggéré
 
-(À venir)
+{% include img_design.html ind=1 alt="Sortie I²S, antenne Bluetooth, prise Ethernet et deux antennes Wi-Fi" src="images/streamer_back.png" %}
