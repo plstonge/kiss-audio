@@ -4,8 +4,6 @@ layout: default
 title: Garde ça simple... et modulaire!
 ---
 
-<div class="container">
-
 ## Le principe KISS (Keep it simple, stupid)
 
 À lire sur la page [Wikipédia - Principe KISS](https://fr.wikipedia.org/wiki/Principe_KISS).
@@ -28,7 +26,7 @@ Le rôle de chaque appareil audio en est donc limité. Les objectifs visés sont
 * Limiter la dépréciation des appareils audio
 
 Bien que les intégrés et autres "all-in-one" de ce monde répondent à des besoins tout-à-fait
-légitimes, ces appareils n'ont pas les qualités potentielles des appareils au design
-*KISS Audio*.
+légitimes, ces appareils n'ont fort probablement pas les qualités propres aux appareils
+basés sur le design *KISS Audio*.
 
-</div>
+{% include img_design.html ind=1 alt="Aperçu du système (presque) complet" src="images/systeme_complet.png" %}
