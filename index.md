@@ -29,4 +29,10 @@ Bien que les intégrés et autres "all-in-one" de ce monde répondent à des bes
 légitimes, ces appareils n'ont fort probablement pas les qualités propres aux appareils
 basés sur le design *KISS Audio*.
 
+Dans les différentes pages accessibles à partir du menu de navigation, une spécification
+de chaque type d'appareil est fournie. Malgré un design suggéré, les spécifications
+n'imposent aucune symétrie, ni dimension des appareils, ni position des différentes prises.
+Néanmoins, une gamme de produits permettant une gestion élégante des câbles est
+fortement recommandée.
+
 {% include img_design.html ind=1 alt="Aperçu du système (presque) complet" src="images/systeme_complet.png" %}
