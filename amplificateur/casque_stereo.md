@@ -7,6 +7,7 @@ title: Amplificateur pour casque stéréo
 ## Le principe KISS (Keep it simple, stupid)
 
 * Simplicité
+* Modularité
 
 ## Entrées
 
@@ -18,10 +19,11 @@ title: Amplificateur pour casque stéréo
 
 ## Sorties
 
-* Prise XLR-4 (balancée)
-* Prise TRS de 6.3 mm (non balancée)
+* Module avec prise XLR-4 (balancée)
+* (Optionnel) Module avec prise TRS 6.3 mm
+* (Optionnel) Module avec prise Pentaconn 4.4 mm
 
 ## Design suggéré
 
 {% include img_design.html ind=1 alt="Deux entrées XLR" src="images/headphone_back.png" %}
-{% include img_design.html ind=2 alt="Une sortie XLR-4, une sortie TRS de 6.3 mm et un bouton de volume" src="images/headphone_front.png" %}
+{% include img_design.html ind=2 alt="Une prise XLR-4 et un bouton de volume" src="images/headphone_front.png" %}
