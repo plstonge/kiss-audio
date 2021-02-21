@@ -7,23 +7,23 @@ title: Amplificateur pour casque stéréo
 ## Le principe KISS (Keep it simple, stupid)
 
 * Simplicité
-* Modularité
 
 ## Entrées
 
-* 2 prises (gauche/droite) XLR balancées
+* Deux (2) prises (gauche/droite) XLR-3 balancées
 
 ## Fonctions
 
 * Préamplifier et amplifier le signal analogique stéréo balancé
 
-## Sorties
+## Sortie
 
-* Module avec prise XLR-4 (balancée)
-* (Optionnel) Module avec prise TRS 6.3 mm
-* (Optionnel) Module avec prise Pentaconn 4.4 mm
+* Une (1) prise XLR-4 (balancée)
 
 ## Design suggéré
 
-{% include img_design.html ind=1 alt="Deux entrées XLR" src="images/headphone_back.png" %}
-{% include img_design.html ind=2 alt="Une prise XLR-4 et un bouton de volume" src="images/headphone_front.png" %}
+Le design ci-dessous cherche à mettre les câbles en évidence, et ce,
+tout en offrant une gestion intégrée des câbles.
+
+{% include img_design.html ind=1 alt="Supports pour câbles à l'arrière et entrées XLR-3 vers l'avant de l'appareil" src="images/headphone_back.png" %}
+{% include img_design.html ind=2 alt="Sortie XLR-4 à l'avant et roulette de volume sur le dessus" src="images/headphone_front.png" %}
